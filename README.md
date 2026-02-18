@@ -1,7 +1,7 @@
 # VHDL-8-function-4-bit-ALU
 This project implements an 8 function, 4 bit ALU using structural VHDL code. 
 
-![Top Level Diagram](4_bit_ALU_VHDL/diagrams/4_bit_ALU_diagram.png)
+![Top Level Diagram](4_bit_ALU_VHDL/diagrams/4_bit_ALU_diagram_1.png)
 
 The functions of the ALU are shown in the table below
 
