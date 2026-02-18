@@ -16,7 +16,7 @@ The functions of the ALU are shown in the table below
 | 1 | 1 | 0 | A - 1 |
 | 1 | 1 | 1 | Transfer A |
 
-A bottom-up approach was used when designing this ALU, starting at the gate entities and working up to the top level alu\_4 entity. All logic gate entities are found in the /gates directory.
+A bottom-up approach was used when designing this ALU, starting at the gate entities and working up to the top level alu\_4 entity. All logic gate entities are found in the /gates directory. The diagram below shows the entity hierarchy. The numbers on each line correspond to the number of instances of the child entity that are used in the parent entity.
 
 ![Entity Hierarchy](4_bit_ALU_VHDL/diagrams/4_bit_ALU_entity_hierarchy.png)
 
