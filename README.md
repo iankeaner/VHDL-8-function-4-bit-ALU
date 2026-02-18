@@ -16,6 +16,8 @@ The functions of the ALU are shown in the table below
 | 1 | 1 | 0 | A - 1 |
 | 1 | 1 | 1 | Transfer A |
 
-A bottom-up approach was used when designing this ALU, starting at the gate entities and working up to the top level alu\_4 entity.
+A bottom-up approach was used when designing this ALU, starting at the gate entities and working up to the top level alu\_4 entity. All logic gate entities are found in the /gates directory.
 
 ![Entity Hierarchy](4_bit_ALU_VHDL/diagrams/4_bit_ALU_entity_hierarchy.png)
+
+5 testbenches were written to simulate different entities in the design. There is one simulation of the 4-to-1 mux, one simulation of the fulladder, one simulation of the 4 bit adder and two simulations of the top level ALU. One of the ALU testbenches used file I/O to simulate while the other uses stdout to show the output. The commands to run the simulations using xrun can be found in the Makefile.
