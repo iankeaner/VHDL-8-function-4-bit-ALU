@@ -1,5 +1,9 @@
 # VHDL-8-function-4-bit-ALU
-This project implements an 8 function, 4 bit ALU using structural VHDL code. The functions are shown in the table below
+This project implements an 8 function, 4 bit ALU using structural VHDL code. 
+
+![Top Level Diagram](4_bit_ALU_VHDL/diagrams/4_bit_ALU_diagram.png)
+
+The functions of the ALU are shown in the table below
 
 | S1 | S0 | Cin | Function |
 |----|----|-----|----------|
@@ -12,3 +16,6 @@ This project implements an 8 function, 4 bit ALU using structural VHDL code. The
 | 1 | 1 | 0 | A - 1 |
 | 1 | 1 | 1 | Transfer A |
 
+A bottom-up approach was used when designing this ALU, starting at the gate entities and working up to the top level alu\_4 entity.
+
+![Entity Hierarchy](4_bit_ALU_VHDL/diagrams/4_bit_ALU_entity_hierarchy.png)
