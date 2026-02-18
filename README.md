@@ -20,4 +20,4 @@ A bottom-up approach was used when designing this ALU, starting at the gate enti
 
 ![Entity Hierarchy](4_bit_ALU_VHDL/diagrams/4_bit_ALU_entity_hierarchy.png)
 
-5 testbenches were written to simulate different entities in the design. There is one simulation of the 4-to-1 mux, one simulation of the fulladder, one simulation of the 4 bit adder and two simulations of the top level ALU. One of the ALU testbenches used file I/O to simulate while the other uses stdout to show the output. The commands to run the simulations using xrun can be found in the Makefile.
+5 testbenches were written to simulate different entities in the design. There is one simulation of the 4-to-1 mux, one simulation of the fulladder, one simulation of the 4 bit adder and two simulations of the top level ALU. One of the ALU testbenches used file I/O to simulate while the other uses stdout to show the output. The commands to run the simulations with cadence xrun can be found in the Makefile.
